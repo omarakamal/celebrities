@@ -1,0 +1,11 @@
+<h1>1 movie</h1>
+
+<h2>{{title}}</h2>
+<p>{{plot}}</p>
+<p>Genre:{{genre}}</p>
+<h4>Actors:</h4>
+{{#each cast}}
+<p>{{name}}</p>
+{{/each}}
+
+<a href="/movies/{{_id}}/edit">Edit Movie Information</a>
